@@ -14,4 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('about',['as'=>'about','uses'=> 'aboutController@showText']);
+//Route::get('about',['as'=>'about','uses'=> 'aboutController@showText']);
+
+Route::get('simple',function(){
+	return view ('about');
+});
