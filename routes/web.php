@@ -15,7 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 //Route::get('about',['as'=>'about','uses'=> 'aboutController@showText']);
+Route::get('simple_array', function(){
+	return view('simple_array');
+});
+Route::get('Array_of_object',function(){
+	return view ('Array_of_object');
+});
 
-Route::get('simple',function(){
-	return view ('about');
+Route::get('Make_a_object',function(){
+	return view('Make_a_object');
+});
+Route::get('covert_array_to_object',function(){
+	return view('covert_array_to_object');
 });
