@@ -1,1 +1,10 @@
-<h1>simple_array</h1>
+@include('components.header')
+
+<div class="heading">Simple Array</div>
+
+@include('components.footer')
+<script>
+		$(document).ready(function(){
+			
+		});
+	</script>

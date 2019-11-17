@@ -1,5 +1,5 @@
 @include('components.header')
-	<div class="heading"><h3>This is home page</h3></div>
+	<div class="heading">This is home page</div>
 	<div class="content">
 		<div class="row">
 			<a href="{{url('simple_array')}}">Simple Array</a>
